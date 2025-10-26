@@ -1,6 +1,6 @@
 title: "Tech Radar"
 repo_url: "https://github.com/abdallah-ali-hassan/tech-radar"
-base_path: "/"  # Set to "/<repo>/" when using GitHub Pages project site
+base_path: "/tech-radar/"  # Set to "/<repo>/" when using GitHub Pages project site
 
 # Quadrants (clockwise from bottom-right for Zalando radar.js)
 # Index mapping: 0=bottom-right, 1=bottom-left, 2=top-left, 3=top-right
