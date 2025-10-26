@@ -1,0 +1,27 @@
+# Tech Radar CODEOWNERS
+# These owners will be requested for review when someone opens a pull request.
+# Order is important; the last matching pattern takes precedence.
+
+# Global owners (fallback)
+* @team/architecture
+
+# Core configuration and tooling
+/radar.config.yml @team/architecture
+/package.json @team/platform
+/tsconfig.json @team/platform
+/tools/ @team/platform
+/src/ @team/platform
+
+# GitHub workflows
+/.github/ @team/platform
+
+# Quadrant-specific owners
+/radar/techniques/ @team/engineering-practices
+/radar/platforms/ @team/platform @team/sre
+/radar/tools/ @team/tooling @team/platform
+/radar/languages-and-frameworks/ @team/architecture @team/frontend @team/backend
+
+# Documentation
+README.md @team/architecture
+CONTRIBUTING.md @team/architecture
+/docs/ @team/architecture

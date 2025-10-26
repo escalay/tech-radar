@@ -1,0 +1,34 @@
+title: "Tech Radar"
+repo_url: "https://github.com/abdallah-ali-hassan/tech-radar"
+base_path: "/"  # Set to "/<repo>/" when using GitHub Pages project site
+
+# Quadrants (clockwise from bottom-right for Zalando radar.js)
+# Index mapping: 0=bottom-right, 1=bottom-left, 2=top-left, 3=top-right
+quadrants:
+  - Techniques
+  - Platforms
+  - Tools
+  - Languages & Frameworks
+
+# Rings (inner to outer)
+# Index mapping: 0=Adopt, 1=Trial, 2=Assess, 3=Hold
+rings:
+  - Adopt
+  - Trial
+  - Assess
+  - Hold
+
+# Ring colors for visualization
+colors:
+  Adopt: "#5ba300"
+  Trial: "#009eb0"
+  Assess: "#c7ba00"
+  Hold: "#e09b96"
+
+# Site metadata
+description: "A collaborative, Markdown-first tech radar for tracking technology decisions and their evolution over time."
+org_name: "Your Organization"
+
+# Display settings
+show_recent_changes_days: 90  # Show "recent" badge for changes within this many days
+changelog_days: 90  # Number of days to include in changelog
